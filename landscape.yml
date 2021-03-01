@@ -1,0 +1,40 @@
+landscape:
+  - category:
+    name: Category Number 1
+    subcategories:
+      - subcategory:
+        name: Sub Category Number 1
+        items:
+          - item:
+            name: 'Item #1'
+            homepage_url: https://sodafoundation.io
+            logo: https://sodafoundation.io/wp-content/uploads/2020/03/soda-foundation-logo-white.svg
+            crunchbase: https://www.crunchbase.com/organization/opensds
+            repo_url: https://github.com/sodafoundation/soda
+          - item:
+            name: 'Item #2'
+            homepage_url: https://sodafoundation.io
+            logo: https://sodafoundation.io/wp-content/uploads/2020/03/soda-foundation-logo-white.svg
+            crunchbase: https://www.crunchbase.com/organization/opensds
+            repo_url: https://github.com/sodafoundation/delfin
+      - subcategory:
+        name: Sub Category Number 2
+        items:
+          - item:
+            name: 'Item #3'
+            homepage_url: https://sodafoundation.io
+            logo: https://sodafoundation.io/wp-content/uploads/2020/03/soda-foundation-logo-white.svg
+            crunchbase: https://www.crunchbase.com/organization/opensds
+            repo_url: https://github.com/sodafoundation/multi-cloud
+  - category:
+    name: SODA Foundation Member
+    subcategories:
+      - subcategory:
+        name: Premier
+        items: []
+      - subcategory:
+        name: General
+        items: []
+      - subcategory:
+        name: Associate
+        items: []

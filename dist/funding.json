@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Amazon Web Services",
+        "currentAmount": 108000000,
+        "previousAmount": 110000000,
+        "date": "2021-01-13",
+        "membership": "Premier",
+        "link": "https://landscape.aswf.io/grouping=organization&organization=amazon-web-services",
+        "url": "https://www.crunchbase.com/organization/amazon-web-services#section-funding-rounds"
+    },
+    {
+        "name": "Epic Games",
+        "currentAmount": 1580000000,
+        "previousAmount": 3360000000,
+        "date": "2021-01-13",
+        "membership": "Premier",
+        "link": "https://landscape.aswf.io/grouping=organization&organization=epic-games",
+        "url": "https://www.crunchbase.com/organization/epic-games-2#section-funding-rounds"
+    },
+    {
+        "name": "Google Cloud Platform",
+        "currentAmount": 36100000,
+        "previousAmount": 38600000,
+        "date": "2021-01-13",
+        "membership": "Premier",
+        "link": "https://landscape.aswf.io/grouping=organization&organization=google-cloud-platform",
+        "url": "https://www.crunchbase.com/organization/google-cloud-platform#section-funding-rounds"
+    },
+    {
+        "name": "Microsoft",
+        "currentAmount": 1000000,
+        "previousAmount": 1001000,
+        "date": "2020-11-03",
+        "membership": "Premier",
+        "link": "https://landscape.aswf.io/grouping=organization&organization=microsoft",
+        "url": "https://www.crunchbase.com/organization/microsoft#section-funding-rounds"
+    },
+    {
+        "name": "Digital Domain",
+        "currentAmount": 31000000,
+        "previousAmount": 101084005,
+        "date": "2020-10-29",
+        "membership": false,
+        "link": "https://landscape.aswf.io/grouping=organization&organization=digital-domain",
+        "url": "https://www.crunchbase.com/organization/digital-domain#section-funding-rounds"
+    }
+]

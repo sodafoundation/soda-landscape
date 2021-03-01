@@ -1,0 +1,146 @@
+global:
+  name: SODA FOUNDATION LANDSCAPE
+  short_name: soda
+  repo: sodafoundation/soda-landscape
+  website: 'https://landscape.sodafoundation.io'
+  short_domain: l.sodafoundation.io
+  company_url: 'https://sodafoundation.io'
+  email: info@sodafoundation.io
+  self: 'https://www.crunchbase.com/organization/opensds'
+  slack_channel: T08PSQ7BQ/BM3K5125V/VfQL9ybcXrwpnLAdKdU8WQrr
+  meta:
+    title: SODA Foundation Landscape
+    fb_admin: alex.contini.94
+    description: 'Filter and sort by GitHub stars, funding, commits, contributors, hq location, and tweets'
+    twitter: '@sodafoundation'
+    google_site_verification: crYr16dyu7npMmK-fw42gMkXKTWg_A-7c2PosXgtPZo
+    ms_validate: 3AF9FFA12CCC3C49C0ABA71CCA222665
+  membership: SODA Foundation Member
+  flags:
+    companies: SODA Foundation Member
+twitter:
+  search: landscape.sodafoundation.io
+  url: 'https://landscape.sodafoundation.io'
+  text: SODA Foundation Landscape from @sodafoundation
+
+relation:
+  label: SODA Relation
+  url: soda
+  values:
+    - id: hosted
+      label: SODA Projects
+      children:
+        - id: sodaproject
+          label: SODA Project
+          prefix: SODA
+          tag: Soda Project
+          color: '#3570af'
+          big_picture_order: 1
+          big_picture_label: SODA Project
+          big_picture_color: 'rgb(24,54,114)'
+    - id: company
+      label: SODA Members
+      tag: Company
+      big_picture_order: 3
+    - id: member
+      label: SODA Member Products/Projects
+      tag: SODA Member
+    - id: false
+      label: Non-SODA Member Products/Projects
+      url: 'no'
+
+membership:
+  Premier:
+    name: SODA
+    label: Premier Member
+    funding: Premier
+    is_large: true
+
+  General:
+    name: SODA
+    label: General Member
+    funding: General
+
+  Associate:
+    name: SODA
+    label: Associate Member
+    funding: Associate
+
+  linux_foundation:
+    name: LF
+    label: Project
+    funding: Linux Foundation
+    crunchbase_and_children: 'https://www.crunchbase.com/organization/linux-foundation'
+
+  'false':
+    funding: 'No'
+
+home:
+  header: >
+    <h1>SODA Foundation Interactive Landscape</h1> The Soda Foundation landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank"
+    href="images/landscape.pdf">pdf</a>) is dynamically generated below. It is modeled after the <a href="http://landscape.cncf.io">CNCF landscape</a> and based
+    on the same open source code.
+  footer: |
+    Crunchbase data is used under license from Crunchbase to CNCF.
+
+ads: []
+presets: []
+big_picture:
+  main:
+    tab_index: -1
+    url: landscape
+    name: Landscape
+    title: SODA Foundation Landscape
+    fullscreen_header: See the interactive landscape at l.sodafoundation.io
+    elements:
+      - type: HorizontalCategory
+        category: 'Category Number 1'
+        rows: 4
+        width: 750
+        height: 170
+        top: 10
+        left: 0
+        color: 'rgb(103,66,18)'
+        fit_width: true
+      - type: LandscapeInfo
+        width: 380
+        height: 130
+        top: 10
+        left: 765
+        children:
+          - type: text
+            text: >
+              This landscape is intended as a map to explore open source projects within the animation and visual effects industry, and also shows the member
+              companies of the Soda Foundation.
+            top: 10
+            left: 85
+            right: 120
+            font_size: 10
+          - type: image
+            image: qr.svg
+            top: 4
+            left: 1
+            width: 88
+            height: 90
+            title: QR Code
+          - type: title
+            title: l.sodafoundation.io
+            top: 84
+            left: 24
+            font_size: 12
+          - type: image
+            image: left-logo.svg
+            width: 110
+            right: 5
+            top: 10
+            title: Landscape Logo
+          - type: image
+            image: right-logo.svg
+            width: 109
+            right: 5
+            top: 65
+            title: SODA Logo
+test:
+  header: SODA Interactive Landscape
+  section: 'Category Number 1'
+  logo: open-vdb.svg

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google-site-verification" content="crYr16dyu7npMmK-fw42gMkXKTWg_A-7c2PosXgtPZo" />
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <script>
+    window.GA = "";
+    window.lastUpdated = "2021-01-14 12:04:26Z";
+  </script>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8"/>
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="ASWF Landscape" />
+  <meta property="og:url" content="https://landscape.aswf.io" />
+  <meta property="og:site_name" content="ASWF Landscape" />
+  <meta property="fb:admins" content="alex.contini.94" />
+  <meta property="og:image" content="https://landscape.aswf.io/favicon.png" />
+  <meta property="og:image:secure_url" content="https://landscape.aswf.io/favicon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="ASWF Landscape" />
+  <meta name="twitter:description" content="Filter and sort by GitHub stars, funding, commits, contributors, hq location, and tweets. Updated: 2021-01-14 12:04:26Z" />
+  <meta name="twitter:site" content="" />
+  <meta name="twitter:image" content="https://landscape.aswf.io/favicon.png" />
+  <meta name="twitter:creator" content="" />
+  <meta name="description" content="Filter and sort by GitHub stars, funding, commits, contributors, hq location, and tweets. Updated: 2021-01-14 12:04:26Z" />
+  <meta name="msvalidate.01" content="3AF9FFA12CCC3C49C0ABA71CCA222665" />
+  <title>ASWF Landscape</title>
+  <script>
+    if (navigator.userAgent !== "ReactSnap") {
+      const parts = window.location.pathname.split('/'); // for example: /cncf/members or  /lfai/landscape or /a/s/d/f
+      const prefix = '';
+      if (parts[1] === prefix) {
+        if (parts[3]) {
+          window.location = '/' + prefix + '/';
+        }
+      }
+      else if (parts[2]) {
+        window.location = '/'
+      }
+    }
+  </script>
+  <script>
+    // adjust size
+    document.addEventListener("DOMContentLoaded", function() {
+      const el = document.querySelector('.landscape-wrapper');
+      if (el) {
+        var height = el.parentElement.clientHeight + window.innerHeight -
+        document.body.offsetHeight;
+        el.style.height = height + "px";
+      } else {
+        console.info('No el to adjust');
+      }
+    });
+  </script>
+<link rel="icon" href="./favicon.png"><link rel="shortcut icon" href="favicon.ico"><link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"><link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"><link rel="icon" type="image/png" sizes="48x48" href="favicon-48x48.png"><link rel="manifest" href="manifest.json"><meta name="mobile-web-app-capable" content="yes"><meta name="theme-color" content="#fff"><meta name="application-name" content="ASWF Interactive Landscape"><script defer src="./main.8b3fb9a9e23dcd76df61.js"></script><link href="./main.1df4dccab0da05e3e793.css" rel="stylesheet"></head>
+<body>
+  <script>
+    p = new URLSearchParams(window.location.pathname.split('/').slice(-1)[0]);
+    if (p.get('loading')) {
+      const el = document.createElement('div');
+      el.innerHTML = p.get('loading');
+      el.id = 'loading-indicator';
+      el.style.marginLeft = '40px';
+      el.style.marginRight = '40px';
+      el.style.fontSize = '40px';
+      el.style.color = '#aaa';
+      el.style.position = 'absolute';
+      document.body.appendChild(el);
+      const timeoutId = setInterval(function() {
+        const loadingEl = document.querySelector('#loading-indicator');
+        const cardsEl = document.querySelector('.cards-section');
+        if (loadingEl && cardsEl) {
+          loadingEl.style.display = 'none';
+          clearInterval(timeoutId);
+        }
+      }, 100);
+    }
+  </script>
+  <div id="app"></div>
+  </body>
+</html>

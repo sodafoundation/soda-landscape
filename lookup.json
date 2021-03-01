@@ -1,0 +1,172 @@
+{
+  "organization": [
+    [
+      "id",
+      "url"
+    ],
+    [
+      "Soda Foundation",
+      "soda-foundation"
+    ]
+  ],
+  "landscape": [
+    [
+      "id",
+      "url",
+      "level",
+      "children",
+      "parentId",
+      "label",
+      "groupingLabel"
+    ],
+    [
+      "Category Number 1",
+      "category-number-1",
+      1,
+      [
+        "Category Number 1 / Sub Category Number 1",
+        "Category Number 1 / Sub Category Number 2"
+      ],
+      "!E",
+      "!E",
+      "!E"
+    ],
+    [
+      "Category Number 1 / Sub Category Number 1",
+      "sub-category-number-1",
+      2,
+      "!E",
+      "Category Number 1",
+      "Sub Category Number 1",
+      "Category Number 1 - Sub Category Number 1"
+    ],
+    [
+      "Category Number 1 / Sub Category Number 2",
+      "sub-category-number-2",
+      2,
+      "!E",
+      "Category Number 1",
+      "Sub Category Number 2",
+      "Category Number 1 - Sub Category Number 2"
+    ],
+    [
+      "SODA Foundation Member",
+      "soda-foundation-member",
+      1,
+      [
+        "SODA Foundation Member / Premier",
+        "SODA Foundation Member / General",
+        "SODA Foundation Member / Associate"
+      ],
+      "!E",
+      "!E",
+      "!E"
+    ],
+    [
+      "SODA Foundation Member / Premier",
+      "premier",
+      2,
+      "!E",
+      "SODA Foundation Member",
+      "Premier",
+      "SODA Foundation Member - Premier"
+    ],
+    [
+      "SODA Foundation Member / General",
+      "general",
+      2,
+      "!E",
+      "SODA Foundation Member",
+      "General",
+      "SODA Foundation Member - General"
+    ],
+    [
+      "SODA Foundation Member / Associate",
+      "associate",
+      2,
+      "!E",
+      "SODA Foundation Member",
+      "Associate",
+      "SODA Foundation Member - Associate"
+    ]
+  ],
+  "license": [
+    [
+      "id",
+      "label",
+      "url",
+      "level",
+      "children",
+      "parentId"
+    ],
+    [
+      "NotOpenSource",
+      "Not Open Source",
+      "not-open-source",
+      1,
+      [],
+      "!E"
+    ],
+    [
+      "Open Source",
+      "Open Source",
+      "open-source",
+      1,
+      [
+        "Apache License 2.0"
+      ],
+      "!E"
+    ],
+    [
+      "Apache License 2.0",
+      "!E",
+      "apache-license-2-0",
+      2,
+      "!E",
+      "Open Source"
+    ]
+  ],
+  "headquarters": [
+    [
+      "id",
+      "url",
+      "level",
+      "children",
+      "label",
+      "groupingLabel",
+      "parentId"
+    ],
+    [
+      "United States",
+      "united-states",
+      1,
+      [
+        "San Francisco, California"
+      ],
+      "!E",
+      "!E",
+      "!E"
+    ],
+    [
+      "San Francisco, California",
+      "san-francisco-california",
+      2,
+      "!E",
+      "San Francisco, California",
+      "San Francisco, California",
+      "United States"
+    ]
+  ],
+  "crunchbaseSlugs": [
+    "linux-foundation",
+    "opensds"
+  ],
+  "languages": [
+    "Dockerfile",
+    "Go",
+    "HTML",
+    "Makefile",
+    "Python",
+    "Shell"
+  ]
+}

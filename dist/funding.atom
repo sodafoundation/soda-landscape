@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://landscape.aswf.io/</id>
+    <title>Funding changes</title>
+    <updated>2021-01-14T12:06:54.242Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>ASWF</name>
+        <email>info@aswf.io</email>
+        <uri>https://aswf.io</uri>
+    </author>
+    <link rel="alternate" href="https://landscape.aswf.io"/>
+    <subtitle>That feed shows recent changes</subtitle>
+    <logo>https://landscape.aswf.io/favicon.png</logo>
+    <icon>https://landscape.aswf.io/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Amazon Web Services got funding of $-2M, now totalling $108M, on 2021-01-13]]></title>
+        <id>Amazon Web Services2021-01-13</id>
+        <link href="https://www.crunchbase.com/organization/amazon-web-services#section-funding-rounds"/>
+        <updated>2021-01-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Amazon Web Services got funding of $-2M, now totalling $108M, on 2021-01-13]]></summary>
+        <content type="html"><![CDATA[Amazon Web Services got funding of $-2M, now totalling $108M, on 2021-01-13]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Epic Games got funding of $-1.78B, now totalling $1.58B, on 2021-01-13]]></title>
+        <id>Epic Games2021-01-13</id>
+        <link href="https://www.crunchbase.com/organization/epic-games-2#section-funding-rounds"/>
+        <updated>2021-01-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Epic Games got funding of $-1.78B, now totalling $1.58B, on 2021-01-13]]></summary>
+        <content type="html"><![CDATA[Epic Games got funding of $-1.78B, now totalling $1.58B, on 2021-01-13]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Cloud Platform got funding of $-2.5M, now totalling $36.1M, on 2021-01-13]]></title>
+        <id>Google Cloud Platform2021-01-13</id>
+        <link href="https://www.crunchbase.com/organization/google-cloud-platform#section-funding-rounds"/>
+        <updated>2021-01-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Google Cloud Platform got funding of $-2.5M, now totalling $36.1M, on 2021-01-13]]></summary>
+        <content type="html"><![CDATA[Google Cloud Platform got funding of $-2.5M, now totalling $36.1M, on 2021-01-13]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft got funding of $-1K, now totalling $1M, on 2020-11-03]]></title>
+        <id>Microsoft2020-11-03</id>
+        <link href="https://www.crunchbase.com/organization/microsoft#section-funding-rounds"/>
+        <updated>2020-11-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft got funding of $-1K, now totalling $1M, on 2020-11-03]]></summary>
+        <content type="html"><![CDATA[Microsoft got funding of $-1K, now totalling $1M, on 2020-11-03]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Digital Domain got funding of $-70.08M, now totalling $31M, on 2020-10-29]]></title>
+        <id>Digital Domain2020-10-29</id>
+        <link href="https://www.crunchbase.com/organization/digital-domain#section-funding-rounds"/>
+        <updated>2020-10-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Digital Domain got funding of $-70.08M, now totalling $31M, on 2020-10-29]]></summary>
+        <content type="html"><![CDATA[Digital Domain got funding of $-70.08M, now totalling $31M, on 2020-10-29]]></content>
+    </entry>
+</feed>
