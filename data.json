@@ -2,7 +2,7 @@
   {
     "name": "Item #1",
     "homepage_url": "https://sodafoundation.io",
-    "logo": "https://sodafoundation.io/wp-content/uploads/2020/03/soda-foundation-logo-white.svg",
+    "logo": "soda-foundation.svg",
     "crunchbase": "https://www.crunchbase.com/organization/opensds",
     "repo_url": "https://github.com/sodafoundation/soda",
     "github_data": {
@@ -30,7 +30,8 @@
       "start_date": "2020-04-07T11:22:55Z"
     },
     "image_data": {
-      "fileName": "item-1.svg"
+      "fileName": "item-1.svg",
+      "hash": "7gsp2JyhM++EeReNNtwRgXuTWkWrN0NGzdJqd0vZmY0="
     },
     "firstCommitDate": {
       "text": "11 months ago",
@@ -98,7 +99,7 @@
   {
     "name": "Item #2",
     "homepage_url": "https://sodafoundation.io",
-    "logo": "https://sodafoundation.io/wp-content/uploads/2020/03/soda-foundation-logo-white.svg",
+    "logo": "soda-foundation.svg",
     "crunchbase": "https://www.crunchbase.com/organization/opensds",
     "repo_url": "https://github.com/sodafoundation/delfin",
     "github_data": {
@@ -142,7 +143,8 @@
       "start_date": "2020-04-09T12:37:30Z"
     },
     "image_data": {
-      "fileName": "item-2.svg"
+      "fileName": "item-2.svg",
+      "hash": "7gsp2JyhM++EeReNNtwRgXuTWkWrN0NGzdJqd0vZmY0="
     },
     "firstCommitDate": {
       "text": "11 months ago",
@@ -210,7 +212,7 @@
   {
     "name": "Item #3",
     "homepage_url": "https://sodafoundation.io",
-    "logo": "https://sodafoundation.io/wp-content/uploads/2020/03/soda-foundation-logo-white.svg",
+    "logo": "soda-foundation.svg",
     "crunchbase": "https://www.crunchbase.com/organization/opensds",
     "repo_url": "https://github.com/sodafoundation/multi-cloud",
     "github_data": {
@@ -264,7 +266,8 @@
       "start_date": "2018-08-29T10:57:01Z"
     },
     "image_data": {
-      "fileName": "item-3.svg"
+      "fileName": "item-3.svg",
+      "hash": "7gsp2JyhM++EeReNNtwRgXuTWkWrN0NGzdJqd0vZmY0="
     },
     "firstCommitDate": "2018-08-29T10:57:01Z",
     "firstCommitLink": "https://github.com/sodafoundation/multi-cloud/commit/f0ca5a47b943dd0c42e1ebef8a1bbd2e98b8565e",
