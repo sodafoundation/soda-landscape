@@ -8,13 +8,13 @@ landscape:
           - item:
             name: 'Item #1'
             homepage_url: https://sodafoundation.io
-            logo: https://sodafoundation.io/wp-content/uploads/2020/03/soda-foundation-logo-white.svg
+            logo: soda-foundation.svg
             crunchbase: https://www.crunchbase.com/organization/opensds
             repo_url: https://github.com/sodafoundation/soda
           - item:
             name: 'Item #2'
             homepage_url: https://sodafoundation.io
-            logo: https://sodafoundation.io/wp-content/uploads/2020/03/soda-foundation-logo-white.svg
+            logo: soda-foundation.svg
             crunchbase: https://www.crunchbase.com/organization/opensds
             repo_url: https://github.com/sodafoundation/delfin
       - subcategory:
@@ -23,7 +23,7 @@ landscape:
           - item:
             name: 'Item #3'
             homepage_url: https://sodafoundation.io
-            logo: https://sodafoundation.io/wp-content/uploads/2020/03/soda-foundation-logo-white.svg
+            logo: soda-foundation.svg
             crunchbase: https://www.crunchbase.com/organization/opensds
             repo_url: https://github.com/sodafoundation/multi-cloud
   - category:
